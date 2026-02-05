@@ -1,0 +1,31 @@
+# Digital Life Training - Dependencies
+# For LoRA fine-tuning with Qwen2.5
+
+# Core ML libraries
+torch>=2.1.0
+transformers>=4.40.0
+datasets>=2.18.0
+accelerate>=0.28.0
+
+# PEFT for LoRA
+peft>=0.10.0
+
+# Quantization support (QLoRA)
+bitsandbytes>=0.43.0
+
+# Training utilities
+tensorboard>=2.16.0
+scipy>=1.12.0
+
+# Progress bars and logging
+tqdm>=4.66.0
+rich>=13.7.0
+
+# Optional: Flash Attention 2 (install separately)
+# pip install flash-attn --no-build-isolation
+
+# Optional: DeepSpeed (for multi-GPU)
+# deepspeed>=0.14.0
+
+# Optional: wandb for experiment tracking
+# wandb>=0.16.0
